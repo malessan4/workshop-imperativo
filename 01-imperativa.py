@@ -11,10 +11,11 @@ for i in nums:
 
 #Corregir para que solo los pares se dupliquen y la salida sea una nueva lista
 # Version corregida
-  
+
 numeros = [1,2,3,4]
 nueva_lista = []
 for i in numeros:
     if i % 2 ==0:
         nueva_lista.append(i * 2)
-        print(nueva_lista)
+        
+print(nueva_lista)
